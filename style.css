@@ -1,0 +1,80 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+
+.mdiv{
+	height: 100vh;
+	width: 100%;
+	position: fixed;
+	top: 10px;
+	left: 0px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://i.pinimg.com/originals/06/3d/46/063d46befe8ef0456347e6e3ef256fb7.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+.container{
+	height: 450px;
+	width: 350px;
+	box-shadow: 0px 0px 20px gray;
+	border-radius: 30px;
+	padding: 20px;
+	background: transparent;
+	backdrop-filter: blur(20px);
+}
+.heading{
+	color: #e6005c;
+	font-family: Arial Black;
+	font-size: 20px;
+	font-weight: bolder;
+	margin-bottom: 14px;
+
+}
+input[type="text"]{
+	height: 30px;
+	width: 150px;
+	padding-left: -10px;
+	outline: none;
+	font-weight: bolder;
+	text-transform: uppercase;
+}
+.srch_btn{
+	border: none;
+	background-color: transparent;
+	padding-top: 20px;
+	cursor: pointer;
+}
+.component{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: -10px;
+}
+.btn{
+	margin-top: -15px;
+	margin-left: 30px;
+	width: 50px;
+}
+#city{
+	padding-top: -50px;
+	color: orangered;
+	font-family: sans-serif;
+	font-size: 20px;
+	font-weight: bolder;
+}
+.measurement{
+	font-family: sans-serif;
+	font-weight: bolder;
+	font-size: 20px;
+}
+.headings{
+	color: royalblue;
+	font-family: sans-serif;
+	font-size: 20px;
+	padding-top: 30px;
+}
